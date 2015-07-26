@@ -438,19 +438,25 @@ th {
 
 /*Make divs visible on screen*/
 
-/*body {
+body {
   background-color: gray;
 }
 
 div {
   border: 1px solid chocolate;
-}*/
+}
 
 /*Custom CSS*/
 
 /*Top Navigation*/
 body {
   font-family: 'Roboto', sans-serif;
+}
+
+.content {
+  width: 60rem;
+  margin: 0 auto;
+  padding: 0 0.9375rem;
 }
 
 .top-navigation {
@@ -462,9 +468,7 @@ body {
 }
 .top-navigation > .content {
   height: 4.375rem;
-  width: 970px;
-  margin: 0 auto;
-  padding: 0 0.9375rem;
+
 }
 .top-navigation .logo {
   margin-top: 0.3125rem;
@@ -490,3 +494,53 @@ body {
   cursor: pointer;
   color: #333333;
 }
+
+/*Introduction Section*/
+
+.introduction {
+  background-image: url("../imgs/karma-background.jpg");
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  background-size: cover;
+  height: 45.938rem;
+  overflow: auto;
+}
+.introduction h1,
+.introduction h3 {
+  color: white;
+  text-align: center;
+  font-weight: 300;
+}
+.introduction h1 {
+  margin-top: 17.5rem;
+  font-size: 3.125rem;
+}
+
+/*Buttons*/
+
+.introduction .buttons {
+  color: white;
+  text-align: center;
+  /*background-color: #F15B2A;*/
+  margin-top: 3rem;
+}
+
+button {
+  background-color: #f15b2a;
+  width: 9.688rem;
+  border-color: #f15b2a;
+  border-style: none;
+  border-radius: 4px;
+  padding: 1rem 1.5rem;
+  color: white;
+  font-size: 1.125rem;
+}
+
+button:hover {
+  background-color: #d9400e;
+  border-color: #cf3d0e;
+  cursor: pointer;
+}
+/*.introduction .buttons button {
+  background-color: #f15b2a;
+}*/
