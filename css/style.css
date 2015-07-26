@@ -544,3 +544,17 @@ button:hover {
 /*.introduction .buttons button {
   background-color: #f15b2a;
 }*/
+
+/*Cases*/
+
+.cases {
+  text-align: center;
+}
+
+.cases .devices {
+  list-style: none;
+}
+
+.devices li {
+  display: inline-block;
+}
