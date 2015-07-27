@@ -438,13 +438,13 @@ th {
 
 /*Make divs visible on screen*/
 
-body {
+/*body {
   background-color: gray;
 }
 
 div {
   border: 1px solid chocolate;
-}
+}*/
 
 /*Custom CSS*/
 
@@ -549,10 +549,31 @@ button:hover {
 
 .cases {
   text-align: center;
+  padding-bottom: 5rem;
+}
+
+.cases .content {
+  padding: none;
+  margin-top: 7.875rem;
+}
+
+.cases h2 {
+  font-size: 2.375rem;
+  margin: 2rem 0 3rem;
+}
+
+.cases h2,
+.caption h3 {
+  font-weight: 300;
 }
 
 .cases .devices {
   list-style: none;
+}
+
+.cases .devices > li {
+  width: 33.333333333%;
+  float: left;
 }
 
 .devices li {
