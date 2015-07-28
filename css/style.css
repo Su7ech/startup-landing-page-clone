@@ -591,12 +591,32 @@ button:hover {
   text-align: center;
 }
 
-.footer .social {
-  margin: 0 auto;
-}
 
 .footer .content {
   border-top: 2px solid #ddd;
+}
+
+/*.footer .social {
+  margin: 0 auto;
+}*/
+
+.social {
+  padding: 0;
+}
+
+.icon {
+  display: inline-block;
+  border: 1px solid #777;
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 2.5rem;
+  padding: 0.625rem 0;
+  text-align: center;
+  margin: 1.25rem 5px;
+}
+
+.icon:hover {
+  cursor: pointer;
 }
 
 .footer p {
